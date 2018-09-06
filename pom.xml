@@ -24,6 +24,8 @@
         <module>service-hi</module>
         <module>ribbon-service</module>
         <module>service-feign</module>
+        <module>hystrix-service</module>
+        <module>hystrix-feign-service</module>
     </modules>
 
     <properties>

@@ -7,6 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="hystrix-feign-service" />
+        <module name="hystrix-service" />
         <module name="ribbon-service" />
         <module name="service-feign" />
         <module name="service-hi" />
