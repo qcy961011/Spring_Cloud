@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="ribbon-service" />
+        <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ribbon" />
         <module name="Spring_Cloud" />

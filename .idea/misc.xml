@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/service-hi/pom.xml" />
         <option value="$PROJECT_DIR$/service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-feign/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

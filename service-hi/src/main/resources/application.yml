@@ -8,7 +8,11 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://127.0.0.1:8761/eureka/,http://127.0.0.1:8760/eureka/
+      defaultZone: http://127.0.0.1:8760/eureka/
+  instance:
+    lease-renewal-interval-in-seconds: 30 # 服务续约任务的调用间隔时间
+    lease-expiration-duration-in-seconds: 90 # 服务失效时间
+
 
 management:
   endpoints:

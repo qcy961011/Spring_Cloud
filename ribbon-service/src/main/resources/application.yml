@@ -1,7 +1,9 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8760/eureka/,http://localhost:8761/eureka/
+      defaultZone: http://localhost:8760/eureka/
+    fetch-registry: true # 是否获取服务
+    registry-fetch-interval-seconds: 30 #缓存服务清单的更新时间
 
 server:
   port: 9000

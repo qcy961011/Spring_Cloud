@@ -1,14 +1,16 @@
 server:
-  port: 8761
+  port: 8760
 
 eureka:
   instance:
     hostname: 127.0.0.1
   client:
-#    registerWithEureka: false
-#    fetchRegistry: false
+    registerWithEureka: false #不向注册中心注册I及
+    fetchRegistry: false #关闭检索服务
     serviceUrl:
       defaultZone: http://127.0.0.1:8760/eureka/
+  server:
+    enable-self-preservation: false #自我保护机制关闭
 
 spring:
   application:
