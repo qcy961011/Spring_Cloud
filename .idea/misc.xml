@@ -12,6 +12,7 @@
         <option value="$PROJECT_DIR$/service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-service/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix-feign-service/pom.xml" />
+        <option value="$PROJECT_DIR$/service-zuul/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
